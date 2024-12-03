@@ -1,0 +1,25 @@
+<!-- Frida Millet 17/10/2024 -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+
+<script>
+function mensaje() {
+  var nombre = document.getElementById("nombre").value;
+  var apellido = document.getElementById("apellido1").value;
+  alert ('Bienvenido ' + nombre + " " + apellido )
+}
+
+
+</script>
+</head>
+
+<body >
+<h1 class="azul">Practica bloque 3</h1>
+
+Introduce tu nombre <input type="text" id="nombre"> Introduce tu apellido1 <input type="text" id="apellido1" onchange="mensaje()">
+
+</body>
